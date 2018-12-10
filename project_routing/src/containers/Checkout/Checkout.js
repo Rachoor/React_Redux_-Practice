@@ -1,0 +1,23 @@
+import React, {Component,Fragment} from 'react';
+import CheckoutSummary from '../../components/Order/CheckoutSummary/CheckoutSummary';
+
+
+class Checkout extends Component {
+    state={
+        salad:1,
+        meat:1,
+        cheese:1,
+        bacon:1
+
+    }
+    render(){
+        return (
+            <Fragment>
+                <CheckoutSummary ingredients={this.state.ingredients}/>
+            </Fragment>
+        );
+    }
+}
+
+
+export default  Checkout;

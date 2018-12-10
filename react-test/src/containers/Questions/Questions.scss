@@ -1,0 +1,37 @@
+.quick-view {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  /* font-family: ; */
+}
+.answer {
+  font-size: 18px;
+}
+.main {
+  margin-top: 20px;
+  padding: 30px;
+  .text-center {
+    text-align: center;
+  }
+  .mt-10 {
+    margin-top: 10px;
+  }
+  .ml-5 {
+    margin-left: 5px;
+  }
+  .alert-success {
+    height: 30px;
+    width: 30px;
+    background: green;
+    border-radius: 50%;
+  }
+  .alert-pending {
+    height: 30px;
+    width: 30px;
+    background: #1e639f;
+    border-radius: 50%;
+  }
+}
